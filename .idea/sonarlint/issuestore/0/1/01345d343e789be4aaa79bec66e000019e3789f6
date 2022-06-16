@@ -1,0 +1,19 @@
+
+F
+java:S3740Å"/Provide the parametrized type for this generic.(»î·é
+3
+java:S1643º"Use a StringBuilder instead.(í™Æ±
+2
+java:S1643¼"Use a StringBuilder instead.(á½ƒ
+]
+java:S2259Š"AA "NullPointerException" could be thrown; "pre" is nullable here.(‘ŸÁûùÿÿÿÿ
+]
+java:S2259£"AA "NullPointerException" could be thrown; "pre" is nullable here.(‘ŸÁûùÿÿÿÿ
+<
+java:S1948"&Make "head" transient or serializable.(Ü¨ëÜ
+P
+java:S1161 ":Add the "@Override" annotation above this method signature(‚¨—£
+V	java:S125;"<This block of commented-out lines of code should be removed.(øÆÆ˜üÿÿÿÿ
+j
+java:S2272Ì"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(¤¿ðßýÿÿÿÿ
+R	java:S125Ó"<This block of commented-out lines of code should be removed.(âŸÛš

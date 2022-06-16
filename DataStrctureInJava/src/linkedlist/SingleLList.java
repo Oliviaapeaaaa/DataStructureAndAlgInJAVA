@@ -35,7 +35,7 @@ public class SingleLList<E> extends LListAdapter<E>{
 
     @Override
     public void clear(){ head = null;}
-
+    @Override
     public E getFirst() {
         return head.value;
     }

@@ -1,0 +1,44 @@
+
+c
+java:S1192m"FDefine a constant instead of duplicating this literal "Empty" 3 times.(ÛşÎ°8‰ºˆ«–0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š…’‹üÿÿÿÿ8‰ºˆ«–0
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÜÊ§98Šºˆ«–0
+@
+java:S2189«""Correct this loop's end condition.(¨¶Ë½8›ºˆ«–0
+H
+java:S1948"&Make "data" transient or serializable.(èê¦ùÿÿÿÿ8œºˆ«–0
+{
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(šùÅÿşÿÿÿÿ8ºˆ«–0
+V
+java:S1161$":Add the "@Override" annotation above this method signature(å{8Ÿºˆ«–0
+\
+java:S1161/":Add the "@Override" annotation above this method signature(°¹©Šıÿÿÿÿ8Ÿºˆ«–0
+W
+java:S11611":Add the "@Override" annotation above this method signature(ûÄ•8 ºˆ«–0
+\
+java:S11615":Add the "@Override" annotation above this method signature(€¼»ûÿÿÿÿ8 ºˆ«–0
+\
+java:S1161<":Add the "@Override" annotation above this method signature(†şì°ûÿÿÿÿ8 ºˆ«–0
+\
+java:S1161F":Add the "@Override" annotation above this method signature(Ş‚ÄÔıÿÿÿÿ8¡ºˆ«–0
+\
+java:S1161O":Add the "@Override" annotation above this method signature(•ù•ãşÿÿÿÿ8¡ºˆ«–0
+W
+java:S1161V":Add the "@Override" annotation above this method signature(¥÷Ğ¥8¢ºˆ«–0
+W
+java:S1161Z":Add the "@Override" annotation above this method signature(„”ÉÉ8¢ºˆ«–0
+W
+java:S1161\":Add the "@Override" annotation above this method signature(²è÷´8¢ºˆ«–0
+\
+java:S1161j":Add the "@Override" annotation above this method signature(Ë­Ôãúÿÿÿÿ8£ºˆ«–0
+U	java:S106m"9Replace this use of System.out or System.err by a logger.(ÛşÎ°8£ºˆ«–0
+\
+java:S1161":Add the "@Override" annotation above this method signature(äöºÖúÿÿÿÿ8£ºˆ«–0
+V	java:S106"9Replace this use of System.out or System.err by a logger.(ÛşÎ°8£ºˆ«–0
+X
+java:S1161˜":Add the "@Override" annotation above this method signature(”÷‰8¤ºˆ«–0
+X
+java:S1161œ":Add the "@Override" annotation above this method signature( ›´Ò8¤ºˆ«–0
+V	java:S106"9Replace this use of System.out or System.err by a logger.(ÛşÎ°8¤ºˆ«–0
+W
+java:S2251«"9"i" is decremented and will never reach "stop condition".(¨¶Ë½8¥ºˆ«–0
