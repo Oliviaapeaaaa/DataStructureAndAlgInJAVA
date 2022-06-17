@@ -1,13 +1,14 @@
-package linkedlist;
+package adapter;
 
 import java.io.Serializable;
-import java.util.*;
+import java.util.Collection;
+import java.util.Deque;
+import java.util.Iterator;
 
-public class LListAdapter<E>
-        implements List<E>, Deque<E>, Cloneable, Serializable {
+public class DequeAdapter<E>  implements Deque<E>, Cloneable, Serializable {
     private static final long serialVersionUID = 1L;
-    // Iterator interface
 
+    // Iterator interface
     @Override
     public Iterator<E> iterator() {
         throw new UnsupportedOperationException("iterator");
@@ -68,58 +69,6 @@ public class LListAdapter<E>
     @Override
     public Object[] toArray() {
         throw new UnsupportedOperationException("toArray");
-    }
-
-    // List interface
-
-    @Override
-    public E get(int index) {
-        throw new UnsupportedOperationException("get");
-    }
-
-    @Override
-    public E set(int index, E element) {
-        throw new UnsupportedOperationException("set");
-    }
-
-    @Override
-    public void add(int index, E element) {
-        throw new UnsupportedOperationException("add");
-    }
-
-    @Override
-    public List<E> subList(int fromIndex, int toIndex) {
-        throw new UnsupportedOperationException("subList");
-    }
-
-    @Override
-    public ListIterator<E> listIterator() {
-        throw new UnsupportedOperationException("listIterator");
-    }
-
-    @Override
-    public ListIterator<E> listIterator(int index) {
-        throw new UnsupportedOperationException("listIterator(int)");
-    }
-
-    @Override
-    public boolean addAll(int index, Collection<? extends E> c) {
-        throw new UnsupportedOperationException("addAll");
-    }
-
-    @Override
-    public int indexOf(Object o) {
-        throw new UnsupportedOperationException("indexOf");
-    }
-
-    @Override
-    public int lastIndexOf(Object o) {
-        throw new UnsupportedOperationException("lastIndexOf");
-    }
-
-    @Override
-    public E remove(int index) {
-        throw new UnsupportedOperationException("remove(int)");
     }
 
     // Queue interface
@@ -235,7 +184,4 @@ public class LListAdapter<E>
     public boolean removeLastOccurrence(Object o) {
         throw new UnsupportedOperationException("removeLastOccurrence");
     }
-
-
-
 }

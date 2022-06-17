@@ -1,4 +1,4 @@
-package arrayList;
+package adapter;
 
 import java.io.Serializable;
 import java.util.*;

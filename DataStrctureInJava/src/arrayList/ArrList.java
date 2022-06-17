@@ -1,10 +1,12 @@
 package arrayList;
 
+import adapter.AListAdapter;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-public class ArrList<E> extends AListAdapter<E>{
+public class ArrList<E> extends AListAdapter<E> {
 //    function in there should match to AListAdapter
     private static final long serialVersionUID = 1L;
 

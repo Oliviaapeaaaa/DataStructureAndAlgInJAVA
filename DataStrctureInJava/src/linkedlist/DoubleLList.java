@@ -1,6 +1,6 @@
 package linkedlist;
 
-import org.w3c.dom.Node;
+import adapter.LListAdapter;
 
 import java.util.Arrays;
 import java.util.Iterator;

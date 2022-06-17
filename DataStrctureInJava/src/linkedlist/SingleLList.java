@@ -1,8 +1,10 @@
 package linkedlist;
 
+import adapter.LListAdapter;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-public class SingleLList<E> extends LListAdapter<E>{
+public class SingleLList<E> extends LListAdapter<E> {
 
     private static final long serialVersionUID = 1l;
 
