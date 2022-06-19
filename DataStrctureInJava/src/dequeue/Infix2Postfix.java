@@ -45,12 +45,10 @@ public class Infix2Postfix {
         Pattern pattern = Pattern.compile(token_pattern);
         Matcher matcher = pattern.matcher(expression);
 
-
-        Queue<String> output = new ArrayDeque<>() {
-        };
-        Deque<String> stack = new ArrayDeque<>(
-
-        );
+// ArrayDeque do not support store null value, so if return special value, we know queue is empty
+        Queue<String> output = new ArrayDeque<>();
+        // LinkedList can store null value, we need to tell null value is in Deque or LinkedList
+        Deque<String> stack = new LinkedList<>();
 
         System.out.println();
         System.out.printf("%-10s%-20s%s\n", "token", "stack", "output");
