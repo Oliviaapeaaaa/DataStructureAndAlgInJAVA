@@ -1,0 +1,17 @@
+
+a
+java:S1192"KDefine a constant instead of duplicating this literal "--> info:
+" 4 times.(í‡Å¶
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(žÚº´
+Q	java:S125	"<This block of commented-out lines of code should be removed.(Ïè†›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½«õ¼øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(í‡Å¶
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½«õ¼øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(í‡Å¶
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‰É†þÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ç±çã
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‰É†þÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ç±çã8ÜÐÂó–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰É†þÿÿÿÿ8ïÂó–0
+I
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8ïÂó–0

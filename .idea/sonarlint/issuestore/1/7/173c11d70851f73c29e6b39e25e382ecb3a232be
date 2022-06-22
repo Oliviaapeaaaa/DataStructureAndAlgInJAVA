@@ -1,0 +1,9 @@
+
+k	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İóèøÿÿÿÿ
+f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‚ì¦
+H
+java:S1948"&Make "data" transient or serializable.(èê¦ùÿÿÿÿ8Ÿì¸ó–0
+j
+java:S2272š"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(¤¿ğßıÿÿÿÿ
+t
+java:S3457¶"Q%n should be used in place of \n to produce the platform-specific line separator.(ØÅŸùÿÿÿÿ8ù‹™ó–0

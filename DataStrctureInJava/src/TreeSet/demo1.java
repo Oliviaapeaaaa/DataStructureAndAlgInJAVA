@@ -1,53 +1,47 @@
 package TreeSet;
 
-import java.util.Comparator;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class demo1 {
     public static void main(String[] args) {
-        Comparator<String> cmp = new Comparator<String>() {
+        SearchTreeSet<Integer> tree = new SearchTreeSet<Integer>();
+        List<Integer> list = new ArrayList<>();
 
+        int num_samples = 10;
 
-            public int compare(String lhs, String rhs) {
-                String lhs_str = String.valueOf(lhs.length());
-                String rhs_str = String.valueOf(rhs.length());
-                return lhs_str.compareTo(rhs_str);
-            }
-        };
-
-        Set<String> str_set = new TreeSet<>();
-        Set<Integer> int_set = new TreeSet<>();
-        Set<String> int_set_lex = new TreeSet<>(cmp);
-
-//    Set<Integer> int_set_lex = new SearchTreeSet<Integer>(cmp);
-//    Set<String> str_set = new SearchTreeSet<>();
-//    Set<Integer> int_set = new SearchTreeSet<Integer>();
-
-        System.out.println("add \"mm\": " + str_set.add("mm"));
-        System.out.println("add \"mm\": " + str_set.add("mm"));
-
-        for (String s : new String[]{"aa", "xx", "dd", "pp", "cc", "qq", "nn"}) {
-            str_set.add(s);
+        Random rand = new Random();
+        for (int i = 0; i < num_samples; ++i) {
+            int n = rand.nextInt(2 * num_samples);
+            list.add(n);
+            tree.add(n);
         }
 
-        System.out.println(str_set);
+        System.out.println("-------- reverse inorder --------");
+        tree.reverseInorderOutput();
 
-        System.out.println("remove \"mm\": " + str_set.remove("mm"));
-        System.out.println(str_set);
+        System.out.println("-------- preorder --------");
+        tree.preorderOutput();
 
-        System.out.println();
+        System.out.println("-------- postorder --------");
+        tree.postorderOutput();
 
-        int[] samples = {10, 5, 15, 6, 19, 33, 4, 2};
+        int pos = rand.nextInt(num_samples);
 
-        for (int i : samples) {
-            int_set.add(i);
-        }
-        System.out.println("int_set: " + int_set);
+        // pos = 0;  // use this to remove the root element
 
-        for (String s : new String[]{"aaaaaaaa", "bbbbb", "cccc","dddd", "e"}) {
-            int_set_lex.add(s);
-        }
-        System.out.println("int_set_lex: " + int_set_lex);
+        int num = list.get(pos);
+
+        System.out.println("remove: " + num);
+        tree.remove(num);
+
+        System.out.println("---------------");
+        tree.reverseInorderOutput();
+        System.out.println("---------------");
     }
-}
+    }
+
+
+
+
+
+

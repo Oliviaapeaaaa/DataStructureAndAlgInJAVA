@@ -1,0 +1,21 @@
+
+i
+java:S11926"NDefine a constant instead of duplicating this literal "%-10s%-20s%s
+" 4 times.(‚Æ¶ùÿÿÿÿ
+f	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¾Ô
+7
+java:S1643"Use a StringBuilder instead.(£ÜĞóûÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(Ë„ºñ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+s
+java:S34576"Q%n should be used in place of \n to produce the platform-specific line separator.(‚Æ¶ùÿÿÿÿ8¥™»É—0
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(‚Æ¶ùÿÿÿÿ
+g
+java:S34577"Q%n should be used in place of \n to produce the platform-specific line separator.(éÏ™
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(éÏ™8¥™»É—0
+m
+java:S3457R"Q%n should be used in place of \n to produce the platform-specific line separator.(òõıG8úÜÂÉ—0
+T	java:S106R"9Replace this use of System.out or System.err by a logger.(òõıG8§™»É—0
+s
+java:S3457Y"Q%n should be used in place of \n to produce the platform-specific line separator.(Ó†°…üÿÿÿÿ8úÜÂÉ—0
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(Ó†°…üÿÿÿÿ8¨™»É—0

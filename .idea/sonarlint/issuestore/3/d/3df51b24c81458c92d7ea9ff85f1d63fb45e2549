@@ -1,0 +1,17 @@
+
+f
+java:S1192'"IDefine a constant instead of duplicating this literal "%-10s%s
+" 3 times.(ω®Ύ8ή®Θ—0
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(΅Ωϊÿÿÿÿ8ή®Θ—0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ΓλώΒ8ι®Θ—0
+L
+java:S5869 "*Remove duplicates in this character class.(΅Ωϊÿÿÿÿ8γιΘ—0
+n
+java:S3457'"Q%n should be used in place of \n to produce the platform-specific line separator.(ω®Ύ8κ®Θ—0
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(ω®Ύ8κ®Θ—0
+n
+java:S3457("Q%n should be used in place of \n to produce the platform-specific line separator.(ος―Π8λ®Θ—0
+U	java:S106("9Replace this use of System.out or System.err by a logger.(ος―Π8λ®Θ—0
+s
+java:S34577"Q%n should be used in place of \n to produce the platform-specific line separator.(αΣιάψÿÿÿÿ8 Θ—0
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(αΣιάψÿÿÿÿ8μ®Θ—0
