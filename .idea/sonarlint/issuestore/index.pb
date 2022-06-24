@@ -11,9 +11,5 @@ a
 1DataStrctureInJava/src/dequeue/Infix2Postfix.java,5/a/5ac9501603595c49a3c50137ef0d0a09b3c4c2cd
 c
 3DataStrctureInJava/src/dequeue/PostfixEvaluate.java,3/d/3df51b24c81458c92d7ea9ff85f1d63fb45e2549
-X
-(DataStrctureInJava/src/dequeue/demo.java,d/a/dab6f6b06aebc9f171db9f8aa90f84beaac44f58
-Z
-*DataStrctureInJava/src/dequeue/ADeque.java,1/7/173c11d70851f73c29e6b39e25e382ecb3a232be
 `
 0DataStrctureInJava/src/adapter/DequeAdapter.java,4/a/4ae2fde3ee5dee72db6a81f11495256a1599ef9a
